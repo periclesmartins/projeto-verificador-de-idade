@@ -17,10 +17,10 @@ function verificar() {
             if (idade <= 4) {
                 //bebe
                 img.src = "imagens-m/homem-bebe.png"
-            } else if (idade < 10) {
+            } else if (idade < 13) {
                 //criança
                 img.src = "imagens-m/homem-crianca.png"
-            } else if (idade < 18) {
+            } else if (idade < 20) {
                 //adolescente
                 img.src = "imagens-m/homem-adolescente.png"
             } else if (idade >= 18 && idade < 50) {
@@ -35,13 +35,13 @@ function verificar() {
             if (idade <= 4) {
                 //bebe
                 img.src = "imagens-f/mulher-bebe.png"
-            } else if (idade < 10) {
+            } else if (idade < 13) {
                 //criança
                 img.src = "imagens-f/mulher-crianca.png"
-            } else if (idade < 18) {
+            } else if (idade < 20) {
                 //adolescente
                 img.src = "imagens-f/mulher-adolescente.png"
-            } else if (idade >= 18 && idade < 50) {
+            } else if (idade >= 20 && idade < 50) {
                 //adulta
                 img.src = "imagens-f/mulher-adulta.png"   
             } else {
